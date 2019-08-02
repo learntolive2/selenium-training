@@ -1,5 +1,6 @@
 package module2;
 
+//Project description: This class demonstrates basic web element locator techniques
 
 import java.util.List;
 
