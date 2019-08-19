@@ -29,6 +29,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  * 
  */
 
+// 08-18-2019 -- Fixed the merge conflict
 
 public class flightBooking {
 
