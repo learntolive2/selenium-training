@@ -125,15 +125,17 @@ public class flightBooking {
 		
 		
 		//TODO From here - 8/13 5pm
+		//To be done -- don't know how though
+		//5. Wait for the page to load and list all the flights available
 		
 		//Wait for the search result page to load
 		FluentWait<WebDriver> fWait = new FluentWait<WebDriver>(driver);
 		fWait.withTimeout(120, TimeUnit.SECONDS)
 				.pollingEvery(5, TimeUnit.SECONDS);
 		
-		
-		//Thread.sleep(60000);
-		//driver.quit();
+
+		Thread.sleep(5000);
+		driver.quit();
 		
 	}
 
